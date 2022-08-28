@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 390px;
+    height: 844px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin: auto;
+}
+.logo {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    left: 40px;
+    top: 55px;
+}
+.heading {
+    position: absolute;
+    width: 133px;
+    height: 44px;
+    left: 40px;
+    top: 123px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+}
+.sub-heading{
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 40px;
+    top: 170px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #B8B8B8;
+}
+ .box1 {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 40px;
+    top: 286px;
+    background: rgba(31, 216, 151, 1);
+    z-index: 5;
+}
+.box2 {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 36px;
+    top: 290px;
+    background: rgba(156, 255, 221, 1);
+}
+.password {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 40px;
+    top: 340px;
+    background: rgba(31, 216, 151, 1);
+    z-index: 5;
+    border: none;
+    color: white;
+    font-size: 20;
+}
+.box4 {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 36px;
+    top: 344px;  
+    background: rgba(156, 255, 221, 1);
+}
+.email {
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 75px;
+    top: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 6;
+} 
+input[type=password]:focus{
+    outline:none; 
+    align-items: center;
+    
+}
+input[type=password] {
+    align-items: center;
+    
+}
+
+i.fa-regular.fa-envelope {
+    position: absolute;
+    left: -51px;
+    right: 20px;
+    top: 19px;
+    bottom: 62.56%;
+    
+    background: #FFFFFF;
+    z-index: 10;
+}
+.account { 
+    box-sizing: border-box;
+    position: absolute;
+    width: 294.98px;
+    height: 46.05px;
+    left: calc(50% - 294.98px/2 - 0.49px);
+    top: calc(50% - 46.05px/2 + 5.03px);
+    background: #1FD897;
+    border: 1px solid #000000;
+    z-index: 5;
+}
+.boxc {
+    box-sizing: border-box;
+    position: absolute;
+    width: 294.98px;
+    height: 46.05px;
+    left: calc(50% - 294.98px/2 - 7.51px);
+    top: calc(50% - 46.05px/2 + 8.97px);
+    background: #000000;
+    border: 1px solid #000000;
+}
+.createaccount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+.aacount {
+    text-decoration: none;
+    color: white;
+}
+.line1{
+    position: absolute;
+    width: 126px;
+    height: 0px;
+    left: 43px;
+    top: 477px;
+    border: 1px solid #B8B8B8;
+}
+.line2{
+    position: absolute;
+    width: 126px;
+    height: 0px;
+    left: 205px;
+    top: 477px;
+    border: 1px solid #B8B8B8;
+}
+.or {
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 182px;
+    top: 455px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B8B8B8;
+}
+
+.google{
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 40px;
+    top: 510px;
+    background: rgba(31, 216, 151, 1);
+    z-index: 5;
+}
+.boxg {
+box-sizing: border-box;
+    position: absolute;
+    width: 294.98px;
+    height: 46.05px;
+    left: 36px;
+    top: 509px;
+    background: rgba(156, 255, 221, 1);
+   border: none;
+}
+.s-google {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left:70px;
+}
+i.fa-brands.fa-google {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -45px;
+    top: 10px;
+    z-index: 5;
+}
+.apple {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 40px;
+    top: 564px;
+    background: rgba(31, 216, 151, 1); 
+    z-index: 5;
+}
+.boxa {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 36px;
+    top: 568px;
+    background: rgba(156, 255, 221, 1);
+}
+.facebook {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 40px;
+    top: 618px;
+    background: rgba(31, 216, 151, 1);
+    z-index: 5;
+}
+.boxf {
+    position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 36px;
+    top: 622px;
+    background: rgba(156, 255, 221,1);
+}
+.s-apple{
+    position: absolute; 
+    left: 70px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.s-facebook {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF; 
+}
+i.fa-brands.fa-apple {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -45px;
+    top: 10px;
+    z-index: 5;
+}
+i.fa-brands.fa-facebook {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -45px;
+    top: 10px;
+    z-index: 5;
+}
+.bottom{
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 56px;
+    top: 762px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #B8B8B8;    
+}
+.sin{
+color:#1FD897;
+text-decoration: none;
+}
